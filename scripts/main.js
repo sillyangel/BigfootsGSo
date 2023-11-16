@@ -1,6 +1,9 @@
 // Hello there!
-// Email bigfoot.gaming9999@gmail.com for any questions. I will reply usually within a day.
-
+// make a script to add scirpt injection to the page
+const scripturl = './scripts/dist/firebase.bundle.js';
+const script2 = document.createElement('script');
+script2.src = scripturl;
+document.head.appendChild(script2);
 
 console.warn(
   "%cNote!",

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./scripts/main.js"></script>
+    <title> </title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat&display=swap');
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+  margin: 10px;
+  padding-left: 20px;
+}
+
+input[type=text]:focus {
+  border: 3px solid #ffffff;
+}
+#mlogin {
+  left: 20px;
+  padding-left: 20px;
+  margin-top: 0 10px;
+  float: right;
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#mlogin button {
+  box-sizing: border-box;
+  border: 2px solid #d2d2d2;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #b8b8b8;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 20px;
+  color: #000000;
+}
+#mlogin h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 25px;
+}
+input[type=email]:focus {
+  border: 3px solid #ffffff;
+}
+input[type=email] {
+  box-sizing: border-box;
+  border: 2px solid #acacac;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+input[type=password] {
+  box-sizing: border-box;
+  border: 2px solid #acacac;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+.container input {
+  box-sizing: border-box;
+  border: 2px solid #acacac;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+    </style>
+</head>
+<body>
+
+
+<div id="mlogin">
+    <h2>Account Login</h2>
+<div class="container">
+  <div class="lisuf">
+  <div id="login">
+      <h3>Login</h3>
+      <form id="login-form">
+          <input type="email" id="login-email" placeholder="Email" required>
+          <input type="password" id="login-password" placeholder="Password" required>
+          <button type="submit">Login</button>
+      </form>
+  </div>
+  <div id="signup">
+      <h3>Sign Up</h3>
+      <form id="signup-form">
+          <input type="email" id="signup-email" placeholder="Email" required>
+          <input type="password" id="signup-password" placeholder="Password" required>
+          <button type="submit">Sign Up</button>
+      </form>
+  </div>
+  </div>
+</div>
+</div>
+
+    
+</body>
+</html>
